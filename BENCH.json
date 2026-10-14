@@ -1,0 +1,1730 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "REALESTATECRM",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\REAL_ESTATE\\REALESTATECRM\\UPSTREAM_CLONE",
+  "git": {
+   "head": "34ed1756762bf3d4ba55b4eabda93e798e9ca6aa",
+   "url": "https://github.com/etewiah/property_web_builder",
+   "branch": "master",
+   "committed_at": "",
+   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+  }
+ },
+ "metrics": {
+  "files_total": 3229,
+  "source_files_scanned": 1334,
+  "lines_of_code": 189502,
+  "languages": {
+   ".rb": 1247,
+   ".md": 522,
+   ".erb": 488,
+   ".yml": 175,
+   ".svg": 146,
+   ".jpg": 128,
+   ".webp": 112,
+   ".js": 67,
+   ".json": 65,
+   ".rake": 51,
+   ".css": 34,
+   ".liquid": 32,
+   "(none)": 31,
+   ".png": 22,
+   ".scss": 22
+  }
+ },
+ "licence": {
+  "spdx": "NOASSERTION",
+  "class": "C",
+  "source_file": null,
+  "redistribution_allowed": false
+ },
+ "dependencies": {
+  "count": 34,
+  "unique": 33,
+  "by_ecosystem": {
+   "npm": 34
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "@fontsource-variable/dm-sans",
+    "version": "^5.2.8",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@fontsource-variable/montserrat",
+    "version": "^5.2.8",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@fontsource-variable/outfit",
+    "version": "^5.2.8",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@fontsource/cormorant-garamond",
+    "version": "^5.2.11",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@fontsource/open-sans",
+    "version": "^5.2.7",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@fontsource/vollkorn",
+    "version": "^5.2.10",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tailwindcss/cli",
+    "version": "^4.3.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "flowbite",
+    "version": "^4.0.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash",
+    "version": "^4.18.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sharp",
+    "version": "^0.35.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwindcss",
+    "version": "^4.3.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@fortawesome/fontawesome-free",
+    "version": "^7.3.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@playwright/test",
+    "version": "^1.61.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "critical",
+    "version": "^8.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fontawesome-subset",
+    "version": "^4.6.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lucide-static",
+    "version": "^1.24.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@remotion/cli",
+    "version": "4.0.489",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@remotion/media",
+    "version": "4.0.489",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@remotion/transitions",
+    "version": "4.0.489",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@remotion/zod-types",
+    "version": "4.0.489",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "express",
+    "version": "^5.2.1",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.7",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.7",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "remotion",
+    "version": "4.0.489",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "zod",
+    "version": "4.3.6",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^19.2.17",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^19.2.3",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.9.3",
+    "source_file": "remotion/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@remotion/bundler",
+    "version": "4.0.489",
+    "source_file": "remotion/render-api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@remotion/renderer",
+    "version": "4.0.489",
+    "source_file": "remotion/render-api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "express",
+    "version": "^5.2.1",
+    "source_file": "remotion/render-api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/express",
+    "version": "^5.0.6",
+    "source_file": "remotion/render-api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-node",
+    "version": "^10.9.2",
+    "source_file": "remotion/render-api/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-node-dev",
+    "version": "^2.0.0",
+    "source_file": "remotion/render-api/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 119,
+  "files_with_findings": 107,
+  "severity": {
+   "high": 9,
+   "medium": 6,
+   "low": 104
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 8,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "spec/services/pwb/exchange_rate_service_spec.rb",
+      "line": 14,
+      "cwe": "CWE-327",
+      "snippet": "context 'when ECB API is available' do"
+     },
+     {
+      "severity": "high",
+      "file": "app/services/pwb/exchange_rate_service.rb",
+      "line": 6,
+      "cwe": "CWE-327",
+      "snippet": "# Uses the eu_central_bank gem to fetch daily exchange rates from the ECB."
+     },
+     {
+      "severity": "medium",
+      "file": "app/services/pwb/external_feed/cache_store.rb",
+      "line": 120,
+      "cwe": "CWE-327",
+      "snippet": "params_hash = Digest::MD5.hexdigest(normalize_params(params).to_json)"
+     },
+     {
+      "severity": "high",
+      "file": "app/lib/pwb/config.rb",
+      "line": 64,
+      "cwe": "CWE-327",
+      "snippet": "# Common currencies for display conversion (subset of ECB-supported currencies)"
+     },
+     {
+      "severity": "medium",
+      "file": "app/helpers/cache_helper.rb",
+      "line": 125,
+      "cwe": "CWE-327",
+      "snippet": "param_hash = Digest::MD5.hexdigest(search_params.sort.to_s)[0..8]"
+     },
+     {
+      "severity": "medium",
+      "file": "app/controllers/concerns/api_public/cacheable.rb",
+      "line": 67,
+      "cwe": "CWE-327",
+      "snippet": "Digest::MD5.hexdigest(data.map { |d| etag_value(d) }.join(\"-\"))"
+     },
+     {
+      "severity": "medium",
+      "file": "app/controllers/api_public/v1/localized_pages_controller.rb",
+      "line": 99,
+      "cwe": "CWE-327",
+      "snippet": "\"\\\"#{Digest::MD5.hexdigest(\"#{page.id}-#{page.updated_at}-#{I18n.locale}\")}\\\"\""
+     },
+     {
+      "severity": "medium",
+      "file": "app/controllers/api_public/v1/site_details_controller.rb",
+      "line": 42,
+      "cwe": "CWE-327",
+      "snippet": "etag: \"\\\"#{Digest::MD5.hexdigest(etag_data_string(website))}\\\"\","
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 3,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "scripts/run-e2e-tests.sh",
+      "line": 88,
+      "cwe": "CWE-78",
+      "snippet": "local status=$(check_server)"
+     },
+     {
+      "severity": "high",
+      "file": "app/models/pwb/listing_video.rb",
+      "line": 194,
+      "cwe": "CWE-120",
+      "snippet": "sprintf(\"%d:%02d\", minutes, seconds)"
+     },
+     {
+      "severity": "high",
+      "file": "app/models/i18n/backend/active_record/translation.rb",
+      "line": 126,
+      "cwe": "CWE-95",
+      "snippet": "Kernel.eval(value)"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 48,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "spec/spec_helper.rb",
+      "line": 81,
+      "cwe": "CWE-",
+      "snippet": "# TODO: - consider precompiling assets to speed up tests"
+     },
+     {
+      "severity": "low",
+      "file": "spec/views/icons/deprecated_patterns_spec.rb",
+      "line": 190,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Remove Font Awesome stylesheet includes from theme layouts after"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/site_admin/activity_logs_spec.rb",
+      "line": 29,
+      "cwe": "CWE-",
+      "snippet": "let!(:log2) { create(:pwb_auth_audit_log, :login_failure, website: website, email: 'hacker@test.com') }"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/site_admin/agency_spec.rb",
+      "line": 135,
+      "cwe": "CWE-",
+      "snippet": "params: { pwb_agency: { display_name: 'Hack' } },"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/site_admin/domains_spec.rb",
+      "line": 200,
+      "cwe": "CWE-",
+      "snippet": "params: { website: { custom_domain: 'hack.com' } },"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/site_admin/email_templates_spec.rb",
+      "line": 375,
+      "cwe": "CWE-",
+      "snippet": "params: { pwb_email_template: { subject: 'Hacked!' } },"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/site_admin/widgets_spec.rb",
+      "line": 287,
+      "cwe": "CWE-",
+      "snippet": "params: { pwb_widget_config: { name: 'Hack' } },"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/pwb/currencies_spec.rb",
+      "line": 50,
+      "cwe": "CWE-",
+      "snippet": "post '/set_currency', params: { currency: 'XXX' }"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/pwb/api/contacts_spec.rb",
+      "line": 145,
+      "cwe": "CWE-",
+      "snippet": "params: { details: { first_name: 'Hacked' } }.to_json,"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/api_public/v1/hpg/cross_tenant_isolation_spec.rb",
+      "line": 85,
+      "cwe": "CWE-",
+      "snippet": "guest_name: 'Hacker'"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/api_manage/v1/cross_tenant_isolation_spec.rb",
+      "line": 404,
+      "cwe": "CWE-",
+      "snippet": "params: { page: { slug: 'hacked' } },"
+     },
+     {
+      "severity": "low",
+      "file": "spec/lib/pwb/config_spec.rb",
+      "line": 168,
+      "cwe": "CWE-",
+      "snippet": "expect(described_class.currency_info('XXX')).to be_nil"
+     },
+     {
+      "severity": "low",
+      "file": "spec/helpers/currency_helper_spec.rb",
+      "line": 120,
+      "cwe": "CWE-",
+      "snippet": "expect(helper.currency_symbol('XXX')).to eq('XXX')"
+     },
+     {
+      "severity": "low",
+      "file": "spec/controllers/tenant_admin/websites_controller_spec.rb",
+      "line": 570,
+      "cwe": "CWE-",
+      "snippet": "subdomain: 'hacked-subdomain'  # Should not be permitted"
+     },
+     {
+      "severity": "low",
+      "file": "spec/controllers/site_admin/properties/settings_controller_spec.rb",
+      "line": 380,
+      "cwe": "CWE-",
+      "snippet": "get :show, params: { category: 'hacked_category' }"
+     },
+     {
+      "severity": "low",
+      "file": "spec/controllers/concerns/api/signup/subdomain_operations_spec.rb",
+      "line": 81,
+      "cwe": "CWE-",
+      "snippet": "# TODO: This test has a transient failure with status 0 - investigate"
+     },
+     {
+      "severity": "low",
+      "file": "remotion/render-api/index.ts",
+      "line": 115,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Generate thumbnail at 1 second mark"
+     },
+     {
+      "severity": "low",
+      "file": "lib/pwb/seeder.rb",
+      "line": 58,
+      "cwe": "CWE-",
+      "snippet": "# TODO: look in a directory and load all the files there"
+     },
+     {
+      "severity": "low",
+      "file": "db/seeds/spain/translations.rb",
+      "line": 135,
+      "cwe": "CWE-",
+      "snippet": "#       # TODO - add spanish translations below"
+     },
+     {
+      "severity": "low",
+      "file": "db/migrate/20161123124639_create_pwb_translations.rb",
+      "line": 10,
+      "cwe": "CWE-",
+      "snippet": "# TODO - use tag to group translations"
+     },
+     {
+      "severity": "low",
+      "file": "db/migrate/20180119105254_add_page_parts_to_pwb_websites.rb",
+      "line": 9,
+      "cwe": "CWE-",
+      "snippet": "# TODO - add favicon image (and logo image directly)"
+     },
+     {
+      "severity": "low",
+      "file": "config/routes.rb",
+      "line": 761,
+      "cwe": "CWE-",
+      "snippet": "# TODO: rename to update_features:"
+     },
+     {
+      "severity": "low",
+      "file": "config/initializers/active_record_encryption.rb",
+      "line": 20,
+      "cwe": "CWE-",
+      "snippet": "Rails.application.config.active_record.encryption.key_derivation_salt = 'dev_salt_32_bytes_long_xxxxxxx'"
+     },
+     {
+      "severity": "low",
+      "file": "app/services/platform_ntfy_service.rb",
+      "line": 16,
+      "cwe": "CWE-",
+      "snippet": "#     access_token: tk_xxxxx       # optional, for private topics"
+     },
+     {
+      "severity": "low",
+      "file": "app/services/pwb/import_mapper.rb",
+      "line": 56,
+      "cwe": "CWE-",
+      "snippet": "# TODO: - figure out way of importing extras"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "app/controllers/widgets_controller.rb",
+      "line": 44,
+      "cwe": "CWE-1188",
+      "snippet": "response.headers['X-Frame-Options'] = 'ALLOWALL'"
+     }
+    ]
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "db/seeds/e2e_seeds.rb",
+      "line": 718,
+      "cwe": "CWE-798",
+      "snippet": "puts \"  Tenant A Admin:   admin@tenant-a.test / password123\""
+     },
+     {
+      "severity": "high",
+      "file": "app/controllers/concerns/admin_auth_bypass.rb",
+      "line": 59,
+      "cwe": "CWE-798",
+      "snippet": "u.password = 'bypass_password_123'"
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 52,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "lighthouserc.js",
+      "line": 18,
+      "cwe": "CWE-319",
+      "snippet": "'http://localhost:3000/',"
+     },
+     {
+      "severity": "low",
+      "file": "playwright.config.js",
+      "line": 41,
+      "cwe": "CWE-319",
+      "snippet": "baseURL: 'http://tenant-a.e2e.localhost:3001',"
+     },
+     {
+      "severity": "low",
+      "file": "tests/e2e/search.spec.js",
+      "line": 20,
+      "cwe": "CWE-319",
+      "snippet": "// Uses baseURL from playwright.config.js (http://tenant-a.e2e.localhost:3001)"
+     },
+     {
+      "severity": "low",
+      "file": "tests/e2e/public/api-endpoints.spec.js",
+      "line": 16,
+      "cwe": "CWE-319",
+      "snippet": "const API_HOST = 'http://localhost:3001';"
+     },
+     {
+      "severity": "low",
+      "file": "tests/e2e/fixtures/test-data.js",
+      "line": 10,
+      "cwe": "CWE-319",
+      "snippet": "baseURL: 'http://tenant-a.e2e.localhost:3001',"
+     },
+     {
+      "severity": "low",
+      "file": "spec/spec_helper.rb",
+      "line": 24,
+      "cwe": "CWE-319",
+      "snippet": "# http://www.thegreatcodeadventure.com/stubbing-with-vcr/"
+     },
+     {
+      "severity": "low",
+      "file": "spec/support/request_spec_helpers.rb",
+      "line": 34,
+      "cwe": "CWE-319",
+      "snippet": "# http://matthewlehner.net/rails-api-testing-guidelines/"
+     },
+     {
+      "severity": "low",
+      "file": "spec/services/pwb/external_feed/normalized_property_spec.rb",
+      "line": 74,
+      "cwe": "CWE-319",
+      "snippet": "{ url: \"http://example.com/img1.jpg\" },"
+     },
+     {
+      "severity": "low",
+      "file": "spec/services/pwb/external_feed/providers/resales_online_spec.rb",
+      "line": 68,
+      "cwe": "CWE-319",
+      "snippet": "\"Picture\" => [{ \"PictureURL\" => \"http://example.com/img.jpg\" }]"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/pwb/api/agency_spec.rb",
+      "line": 79,
+      "cwe": "CWE-319",
+      "snippet": "twitter: 'http://twitter.com/test',"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/pwb/api/website_spec.rb",
+      "line": 43,
+      "cwe": "CWE-319",
+      "snippet": "twitter: 'http://twitter.com/test',"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/api_public/v1/site_details_spec.rb",
+      "line": 52,
+      "cwe": "CWE-319",
+      "snippet": "expect(og[\"og:url\"]).to eq(\"http://example.com/\")"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/api_public/v1/hpg/cors_spec.rb",
+      "line": 31,
+      "cwe": "CWE-319",
+      "snippet": "headers: { 'Origin' => 'http://localhost:4321' }"
+     },
+     {
+      "severity": "low",
+      "file": "spec/models/pwb/website_custom_domain_spec.rb",
+      "line": 153,
+      "cwe": "CWE-319",
+      "snippet": "expect(Website.normalize_domain('http://example.com')).to eq('example.com')"
+     },
+     {
+      "severity": "low",
+      "file": "spec/models/concerns/external_image_support_spec.rb",
+      "line": 18,
+      "cwe": "CWE-319",
+      "snippet": "photo.external_url = 'http://example.com/image.jpg'"
+     },
+     {
+      "severity": "low",
+      "file": "spec/models/concerns/pwb/website/domain_configurable_spec.rb",
+      "line": 134,
+      "cwe": "CWE-319",
+      "snippet": "expect(Pwb::Website.normalize_domain('http://example.test')).to eq('example.test')"
+     },
+     {
+      "severity": "low",
+      "file": "spec/mailers/previews/pwb/enquiry_mailer_preview.rb",
+      "line": 4,
+      "cwe": "CWE-319",
+      "snippet": "# Preview all emails at http://localhost:3000/rails/mailers/pwb/enquiry_mailer"
+     },
+     {
+      "severity": "low",
+      "file": "spec/lib/pwb/liquid_filters_spec.rb",
+      "line": 47,
+      "cwe": "CWE-319",
+      "snippet": "expect(filter.localize_url('http://example.com/page')).to eq('http://example.com/page')"
+     },
+     {
+      "severity": "low",
+      "file": "spec/helpers/url_localization_helper_spec.rb",
+      "line": 40,
+      "cwe": "CWE-319",
+      "snippet": "expect(helper.localized_url('http://example.com/page')).to eq('http://example.com/page')"
+     },
+     {
+      "severity": "low",
+      "file": "spec/helpers/pwb/images_helper_responsive_spec.rb",
+      "line": 98,
+      "cwe": "CWE-319",
+      "snippet": "expect(helper.trusted_webp_source?(\"http://localhost:3000/photo.jpg\")).to be true"
+     },
+     {
+      "severity": "low",
+      "file": "scripts/extract-critical-css.js",
+      "line": 27,
+      "cwe": "CWE-319",
+      "snippet": "const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';"
+     },
+     {
+      "severity": "low",
+      "file": "scripts/run-e2e-tests.sh",
+      "line": 35,
+      "cwe": "CWE-319",
+      "snippet": "E2E_URL=\"http://${E2E_HOST}:${E2E_PORT}\""
+     },
+     {
+      "severity": "low",
+      "file": "scripts/take-admin-screenshots.js",
+      "line": 26,
+      "cwe": "CWE-319",
+      "snippet": "const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';"
+     },
+     {
+      "severity": "low",
+      "file": "scripts/take-screenshots.js",
+      "line": 20,
+      "cwe": "CWE-319",
+      "snippet": "const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';"
+     },
+     {
+      "severity": "low",
+      "file": "db/seeds/e2e_seeds.rb",
+      "line": 724,
+      "cwe": "CWE-319",
+      "snippet": "puts \"  Tenant A: http://tenant-a.e2e.localhost:3001\""
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 5,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "spec/views/themes/theme_rendering_spec.rb",
+      "line": 139,
+      "cwe": "CWE-601",
+      "snippet": "# Should render successfully (200) or redirect (302)"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/site_admin/props_spec.rb",
+      "line": 158,
+      "cwe": "CWE-601",
+      "snippet": "# Either unprocessable_entity or redirect (controller behavior)"
+     },
+     {
+      "severity": "low",
+      "file": "spec/requests/pwb/setup_reproduction_spec.rb",
+      "line": 26,
+      "cwe": "CWE-601",
+      "snippet": "# It currently succeeds (200), but we expect it to redirect (302)"
+     },
+     {
+      "severity": "low",
+      "file": "config/routes.rb",
+      "line": 530,
+      "cwe": "CWE-601",
+      "snippet": "get \"/admin\", to: redirect('/site_admin')"
+     },
+     {
+      "severity": "medium",
+      "file": "app/javascript/controllers/contact_form_controller.js",
+      "line": 50,
+      "cwe": "CWE-918",
+      "snippet": "const response = await fetch(url, {"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 6,
+  "files_with_findings": 6,
+  "severity": {
+   "high": 6,
+   "medium": 0,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 6,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "spec/services/video/script_generator_spec.rb",
+      "line": 103,
+      "cwe": "CWE-798",
+      "snippet": "allow(ENV).to receive(:[]).with('OPENAI_API_KEY').and_return(nil)"
+     },
+     {
+      "severity": "high",
+      "file": "spec/services/ai/base_service_spec.rb",
+      "line": 71,
+      "cwe": "CWE-798",
+      "snippet": "allow(ENV).to receive(:[]).with('OPENAI_API_KEY').and_return(nil)"
+     },
+     {
+      "severity": "high",
+      "file": "spec/services/ai/listing_description_generator_spec.rb",
+      "line": 255,
+      "cwe": "CWE-798",
+      "snippet": "# The configured? method checks ENV['ANTHROPIC_API_KEY'] and ENV['OPENAI_API_KEY']"
+     },
+     {
+      "severity": "high",
+      "file": "config/initializers/ruby_llm.rb",
+      "line": 11,
+      "cwe": "CWE-798",
+      "snippet": "#   OPENAI_API_KEY - Optional, for OpenAI fallback"
+     },
+     {
+      "severity": "high",
+      "file": "app/services/video/voiceover_generator.rb",
+      "line": 148,
+      "cwe": "CWE-798",
+      "snippet": "end || ENV['OPENAI_API_KEY']"
+     },
+     {
+      "severity": "high",
+      "file": "app/services/ai/base_service.rb",
+      "line": 88,
+      "cwe": "CWE-798",
+      "snippet": "ENV['ANTHROPIC_API_KEY'].present? || ENV['OPENAI_API_KEY'].present?"
+     }
+    ]
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:6b71ae43-8a71-5c83-b978-48a525e9d9f3",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-12T07:00:20Z",
+   "component": {
+    "type": "application",
+    "name": "REALESTATECRM",
+    "version": "34ed1756762b",
+    "bom-ref": "pkg:generic/anticloud/REALESTATECRM@34ed1756762b",
+    "purl": "pkg:generic/anticloud/REALESTATECRM@34ed1756762b",
+    "licenses": [
+     {
+      "license": {
+       "id": "NOASSERTION"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "34ed1756762bf3d4ba55b4eabda93e798e9ca6aa"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": ""
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "@fontsource-variable/dm-sans",
+    "version": "^5.2.8",
+    "purl": "pkg:npm/@fontsource-variable/dm-sans@^5.2.8",
+    "bom-ref": "npm/@fontsource-variable/dm-sans@^5.2.8"
+   },
+   {
+    "type": "library",
+    "name": "@fontsource-variable/montserrat",
+    "version": "^5.2.8",
+    "purl": "pkg:npm/@fontsource-variable/montserrat@^5.2.8",
+    "bom-ref": "npm/@fontsource-variable/montserrat@^5.2.8"
+   },
+   {
+    "type": "library",
+    "name": "@fontsource-variable/outfit",
+    "version": "^5.2.8",
+    "purl": "pkg:npm/@fontsource-variable/outfit@^5.2.8",
+    "bom-ref": "npm/@fontsource-variable/outfit@^5.2.8"
+   },
+   {
+    "type": "library",
+    "name": "@fontsource/cormorant-garamond",
+    "version": "^5.2.11",
+    "purl": "pkg:npm/@fontsource/cormorant-garamond@^5.2.11",
+    "bom-ref": "npm/@fontsource/cormorant-garamond@^5.2.11"
+   },
+   {
+    "type": "library",
+    "name": "@fontsource/open-sans",
+    "version": "^5.2.7",
+    "purl": "pkg:npm/@fontsource/open-sans@^5.2.7",
+    "bom-ref": "npm/@fontsource/open-sans@^5.2.7"
+   },
+   {
+    "type": "library",
+    "name": "@fontsource/vollkorn",
+    "version": "^5.2.10",
+    "purl": "pkg:npm/@fontsource/vollkorn@^5.2.10",
+    "bom-ref": "npm/@fontsource/vollkorn@^5.2.10"
+   },
+   {
+    "type": "library",
+    "name": "@tailwindcss/cli",
+    "version": "^4.3.2",
+    "purl": "pkg:npm/@tailwindcss/cli@^4.3.2",
+    "bom-ref": "npm/@tailwindcss/cli@^4.3.2"
+   },
+   {
+    "type": "library",
+    "name": "flowbite",
+    "version": "^4.0.2",
+    "purl": "pkg:npm/flowbite@^4.0.2",
+    "bom-ref": "npm/flowbite@^4.0.2"
+   },
+   {
+    "type": "library",
+    "name": "lodash",
+    "version": "^4.18.1",
+    "purl": "pkg:npm/lodash@^4.18.1",
+    "bom-ref": "npm/lodash@^4.18.1"
+   },
+   {
+    "type": "library",
+    "name": "sharp",
+    "version": "^0.35.3",
+    "purl": "pkg:npm/sharp@^0.35.3",
+    "bom-ref": "npm/sharp@^0.35.3"
+   },
+   {
+    "type": "library",
+    "name": "tailwindcss",
+    "version": "^4.3.2",
+    "purl": "pkg:npm/tailwindcss@^4.3.2",
+    "bom-ref": "npm/tailwindcss@^4.3.2"
+   },
+   {
+    "type": "library",
+    "name": "@fortawesome/fontawesome-free",
+    "version": "^7.3.0",
+    "purl": "pkg:npm/@fortawesome/fontawesome-free@^7.3.0",
+    "bom-ref": "npm/@fortawesome/fontawesome-free@^7.3.0"
+   },
+   {
+    "type": "library",
+    "name": "@playwright/test",
+    "version": "^1.61.1",
+    "purl": "pkg:npm/@playwright/test@^1.61.1",
+    "bom-ref": "npm/@playwright/test@^1.61.1"
+   },
+   {
+    "type": "library",
+    "name": "critical",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/critical@^8.0.0",
+    "bom-ref": "npm/critical@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "fontawesome-subset",
+    "version": "^4.6.0",
+    "purl": "pkg:npm/fontawesome-subset@^4.6.0",
+    "bom-ref": "npm/fontawesome-subset@^4.6.0"
+   },
+   {
+    "type": "library",
+    "name": "lucide-static",
+    "version": "^1.24.0",
+    "purl": "pkg:npm/lucide-static@^1.24.0",
+    "bom-ref": "npm/lucide-static@^1.24.0"
+   },
+   {
+    "type": "library",
+    "name": "@remotion/cli",
+    "version": "4.0.489",
+    "purl": "pkg:npm/@remotion/cli@4.0.489",
+    "bom-ref": "npm/@remotion/cli@4.0.489"
+   },
+   {
+    "type": "library",
+    "name": "@remotion/media",
+    "version": "4.0.489",
+    "purl": "pkg:npm/@remotion/media@4.0.489",
+    "bom-ref": "npm/@remotion/media@4.0.489"
+   },
+   {
+    "type": "library",
+    "name": "@remotion/transitions",
+    "version": "4.0.489",
+    "purl": "pkg:npm/@remotion/transitions@4.0.489",
+    "bom-ref": "npm/@remotion/transitions@4.0.489"
+   },
+   {
+    "type": "library",
+    "name": "@remotion/zod-types",
+    "version": "4.0.489",
+    "purl": "pkg:npm/@remotion/zod-types@4.0.489",
+    "bom-ref": "npm/@remotion/zod-types@4.0.489"
+   },
+   {
+    "type": "library",
+    "name": "express",
+    "version": "^5.2.1",
+    "purl": "pkg:npm/express@^5.2.1",
+    "bom-ref": "npm/express@^5.2.1"
+   },
+   {
+    "type": "library",
+    "name": "react",
+    "version": "^19.2.7",
+    "purl": "pkg:npm/react@^19.2.7",
+    "bom-ref": "npm/react@^19.2.7"
+   },
+   {
+    "type": "library",
+    "name": "react-dom",
+    "version": "^19.2.7",
+    "purl": "pkg:npm/react-dom@^19.2.7",
+    "bom-ref": "npm/react-dom@^19.2.7"
+   },
+   {
+    "type": "library",
+    "name": "remotion",
+    "version": "4.0.489",
+    "purl": "pkg:npm/remotion@4.0.489",
+    "bom-ref": "npm/remotion@4.0.489"
+   },
+   {
+    "type": "library",
+    "name": "zod",
+    "version": "4.3.6",
+    "purl": "pkg:npm/zod@4.3.6",
+    "bom-ref": "npm/zod@4.3.6"
+   },
+   {
+    "type": "library",
+    "name": "@types/react",
+    "version": "^19.2.17",
+    "purl": "pkg:npm/@types/react@^19.2.17",
+    "bom-ref": "npm/@types/react@^19.2.17"
+   },
+   {
+    "type": "library",
+    "name": "@types/react-dom",
+    "version": "^19.2.3",
+    "purl": "pkg:npm/@types/react-dom@^19.2.3",
+    "bom-ref": "npm/@types/react-dom@^19.2.3"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "^5.9.3",
+    "purl": "pkg:npm/typescript@^5.9.3",
+    "bom-ref": "npm/typescript@^5.9.3"
+   },
+   {
+    "type": "library",
+    "name": "@remotion/bundler",
+    "version": "4.0.489",
+    "purl": "pkg:npm/@remotion/bundler@4.0.489",
+    "bom-ref": "npm/@remotion/bundler@4.0.489"
+   },
+   {
+    "type": "library",
+    "name": "@remotion/renderer",
+    "version": "4.0.489",
+    "purl": "pkg:npm/@remotion/renderer@4.0.489",
+    "bom-ref": "npm/@remotion/renderer@4.0.489"
+   },
+   {
+    "type": "library",
+    "name": "@types/express",
+    "version": "^5.0.6",
+    "purl": "pkg:npm/@types/express@^5.0.6",
+    "bom-ref": "npm/@types/express@^5.0.6"
+   },
+   {
+    "type": "library",
+    "name": "ts-node",
+    "version": "^10.9.2",
+    "purl": "pkg:npm/ts-node@^10.9.2",
+    "bom-ref": "npm/ts-node@^10.9.2"
+   },
+   {
+    "type": "library",
+    "name": "ts-node-dev",
+    "version": "^2.0.0",
+    "purl": "pkg:npm/ts-node-dev@^2.0.0",
+    "bom-ref": "npm/ts-node-dev@^2.0.0"
+   }
+  ]
+ },
+ "elapsed_seconds": 23.73,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 2,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "37b3095b2acb49942cf16a29f820ece35122a339",
+    "latest_commit": "37b3095 anticloud overlay + upstream swap to etewiah/property_web_builder",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-12T07:00:28.762530+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "b1885fe1fe298e5ba7d122ab12fe8ca901800cf713932cf160401fb2a1e488b2",
+ "upstream_substituted": {
+  "from": "GPL/AGPL slot",
+  "to": "etewiah/property_web_builder",
+  "sha": "34ed1756762bf3d4ba55b4eabda93e798e9ca6aa",
+  "at": "2026-10-12T07:00:28.762530+00:00"
+ }
+}

@@ -1,0 +1,270 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:6b71ae43-8a71-5c83-b978-48a525e9d9f3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T07:00:20Z",
+    "component": {
+      "type": "application",
+      "name": "REALESTATECRM",
+      "version": "34ed1756762b",
+      "bom-ref": "pkg:generic/anticloud/REALESTATECRM@34ed1756762b",
+      "purl": "pkg:generic/anticloud/REALESTATECRM@34ed1756762b",
+      "licenses": [
+        {
+          "license": {
+            "id": "NOASSERTION"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "34ed1756762bf3d4ba55b4eabda93e798e9ca6aa"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@fontsource-variable/dm-sans",
+      "version": "^5.2.8",
+      "purl": "pkg:npm/@fontsource-variable/dm-sans@^5.2.8",
+      "bom-ref": "npm/@fontsource-variable/dm-sans@^5.2.8"
+    },
+    {
+      "type": "library",
+      "name": "@fontsource-variable/montserrat",
+      "version": "^5.2.8",
+      "purl": "pkg:npm/@fontsource-variable/montserrat@^5.2.8",
+      "bom-ref": "npm/@fontsource-variable/montserrat@^5.2.8"
+    },
+    {
+      "type": "library",
+      "name": "@fontsource-variable/outfit",
+      "version": "^5.2.8",
+      "purl": "pkg:npm/@fontsource-variable/outfit@^5.2.8",
+      "bom-ref": "npm/@fontsource-variable/outfit@^5.2.8"
+    },
+    {
+      "type": "library",
+      "name": "@fontsource/cormorant-garamond",
+      "version": "^5.2.11",
+      "purl": "pkg:npm/@fontsource/cormorant-garamond@^5.2.11",
+      "bom-ref": "npm/@fontsource/cormorant-garamond@^5.2.11"
+    },
+    {
+      "type": "library",
+      "name": "@fontsource/open-sans",
+      "version": "^5.2.7",
+      "purl": "pkg:npm/@fontsource/open-sans@^5.2.7",
+      "bom-ref": "npm/@fontsource/open-sans@^5.2.7"
+    },
+    {
+      "type": "library",
+      "name": "@fontsource/vollkorn",
+      "version": "^5.2.10",
+      "purl": "pkg:npm/@fontsource/vollkorn@^5.2.10",
+      "bom-ref": "npm/@fontsource/vollkorn@^5.2.10"
+    },
+    {
+      "type": "library",
+      "name": "@tailwindcss/cli",
+      "version": "^4.3.2",
+      "purl": "pkg:npm/@tailwindcss/cli@^4.3.2",
+      "bom-ref": "npm/@tailwindcss/cli@^4.3.2"
+    },
+    {
+      "type": "library",
+      "name": "flowbite",
+      "version": "^4.0.2",
+      "purl": "pkg:npm/flowbite@^4.0.2",
+      "bom-ref": "npm/flowbite@^4.0.2"
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "^4.18.1",
+      "purl": "pkg:npm/lodash@^4.18.1",
+      "bom-ref": "npm/lodash@^4.18.1"
+    },
+    {
+      "type": "library",
+      "name": "sharp",
+      "version": "^0.35.3",
+      "purl": "pkg:npm/sharp@^0.35.3",
+      "bom-ref": "npm/sharp@^0.35.3"
+    },
+    {
+      "type": "library",
+      "name": "tailwindcss",
+      "version": "^4.3.2",
+      "purl": "pkg:npm/tailwindcss@^4.3.2",
+      "bom-ref": "npm/tailwindcss@^4.3.2"
+    },
+    {
+      "type": "library",
+      "name": "@fortawesome/fontawesome-free",
+      "version": "^7.3.0",
+      "purl": "pkg:npm/@fortawesome/fontawesome-free@^7.3.0",
+      "bom-ref": "npm/@fortawesome/fontawesome-free@^7.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@playwright/test",
+      "version": "^1.61.1",
+      "purl": "pkg:npm/@playwright/test@^1.61.1",
+      "bom-ref": "npm/@playwright/test@^1.61.1"
+    },
+    {
+      "type": "library",
+      "name": "critical",
+      "version": "^8.0.0",
+      "purl": "pkg:npm/critical@^8.0.0",
+      "bom-ref": "npm/critical@^8.0.0"
+    },
+    {
+      "type": "library",
+      "name": "fontawesome-subset",
+      "version": "^4.6.0",
+      "purl": "pkg:npm/fontawesome-subset@^4.6.0",
+      "bom-ref": "npm/fontawesome-subset@^4.6.0"
+    },
+    {
+      "type": "library",
+      "name": "lucide-static",
+      "version": "^1.24.0",
+      "purl": "pkg:npm/lucide-static@^1.24.0",
+      "bom-ref": "npm/lucide-static@^1.24.0"
+    },
+    {
+      "type": "library",
+      "name": "@remotion/cli",
+      "version": "4.0.489",
+      "purl": "pkg:npm/@remotion/cli@4.0.489",
+      "bom-ref": "npm/@remotion/cli@4.0.489"
+    },
+    {
+      "type": "library",
+      "name": "@remotion/media",
+      "version": "4.0.489",
+      "purl": "pkg:npm/@remotion/media@4.0.489",
+      "bom-ref": "npm/@remotion/media@4.0.489"
+    },
+    {
+      "type": "library",
+      "name": "@remotion/transitions",
+      "version": "4.0.489",
+      "purl": "pkg:npm/@remotion/transitions@4.0.489",
+      "bom-ref": "npm/@remotion/transitions@4.0.489"
+    },
+    {
+      "type": "library",
+      "name": "@remotion/zod-types",
+      "version": "4.0.489",
+      "purl": "pkg:npm/@remotion/zod-types@4.0.489",
+      "bom-ref": "npm/@remotion/zod-types@4.0.489"
+    },
+    {
+      "type": "library",
+      "name": "express",
+      "version": "^5.2.1",
+      "purl": "pkg:npm/express@^5.2.1",
+      "bom-ref": "npm/express@^5.2.1"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^19.2.7",
+      "purl": "pkg:npm/react@^19.2.7",
+      "bom-ref": "npm/react@^19.2.7"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^19.2.7",
+      "purl": "pkg:npm/react-dom@^19.2.7",
+      "bom-ref": "npm/react-dom@^19.2.7"
+    },
+    {
+      "type": "library",
+      "name": "remotion",
+      "version": "4.0.489",
+      "purl": "pkg:npm/remotion@4.0.489",
+      "bom-ref": "npm/remotion@4.0.489"
+    },
+    {
+      "type": "library",
+      "name": "zod",
+      "version": "4.3.6",
+      "purl": "pkg:npm/zod@4.3.6",
+      "bom-ref": "npm/zod@4.3.6"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "^19.2.17",
+      "purl": "pkg:npm/@types/react@^19.2.17",
+      "bom-ref": "npm/@types/react@^19.2.17"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "^19.2.3",
+      "purl": "pkg:npm/@types/react-dom@^19.2.3",
+      "bom-ref": "npm/@types/react-dom@^19.2.3"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.9.3",
+      "purl": "pkg:npm/typescript@^5.9.3",
+      "bom-ref": "npm/typescript@^5.9.3"
+    },
+    {
+      "type": "library",
+      "name": "@remotion/bundler",
+      "version": "4.0.489",
+      "purl": "pkg:npm/@remotion/bundler@4.0.489",
+      "bom-ref": "npm/@remotion/bundler@4.0.489"
+    },
+    {
+      "type": "library",
+      "name": "@remotion/renderer",
+      "version": "4.0.489",
+      "purl": "pkg:npm/@remotion/renderer@4.0.489",
+      "bom-ref": "npm/@remotion/renderer@4.0.489"
+    },
+    {
+      "type": "library",
+      "name": "@types/express",
+      "version": "^5.0.6",
+      "purl": "pkg:npm/@types/express@^5.0.6",
+      "bom-ref": "npm/@types/express@^5.0.6"
+    },
+    {
+      "type": "library",
+      "name": "ts-node",
+      "version": "^10.9.2",
+      "purl": "pkg:npm/ts-node@^10.9.2",
+      "bom-ref": "npm/ts-node@^10.9.2"
+    },
+    {
+      "type": "library",
+      "name": "ts-node-dev",
+      "version": "^2.0.0",
+      "purl": "pkg:npm/ts-node-dev@^2.0.0",
+      "bom-ref": "npm/ts-node-dev@^2.0.0"
+    }
+  ]
+}
