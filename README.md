@@ -1,177 +1,68 @@
 # REALESTATECRM
 
-![licence](https://img.shields.io/badge/licence-NOASSERTION-blue) ![offline-first](https://img.shields.io/badge/offline--first-air--gap-green) ![audit](https://img.shields.io/badge/audit-SHA3--256-orange) ![checks](https://img.shields.io/badge/checks-unknown_PASS-brightgreen)
+> PropertyWebBuilder is part of a small stable of property-tech products, alongside [SinglePropertyPages](https://singlepropertypages.com), [HomesToCompare](https://homestocompare.com), [House Price Guess](https://housepriceguess.com), and [ChattyMaps](https://chattymaps.com).
 
-> Governed Anticloud packaging of the upstream project `REALESTATECRM` in category **REAL_ESTATE**. check results: see ISOLATED_LAB_RESULTS. Every number below traces to a named file + run stamp; nothing is borrowed from other projects.
+**Category:** REAL_ESTATE · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/etewiah/property_web_builder · **Pinned commit:** `34ed1756762bf3d4ba55b4eabda93e798e9ca6aa` · **Vendor:** Anticloud FZ LLE
 
-**Upstream:** REALESTATECRM · **Upstream pin:** `34ed1756762bf3d4ba55b4eabda93e798e9ca6aa` · **Category:** REAL_ESTATE · **Vendor:** Anticloud FZ LLE · **Licence:** NOASSERTION
+> **Note:** this package vendors `https://github.com/etewiah/property_web_builder` as the implementation for the `REALESTATECRM` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
 
----
+## What This Project Is
 
-## What This Project Does
+PropertyWebBuilder is part of a small stable of property-tech products, alongside [SinglePropertyPages](https://singlepropertypages.com), [HomesToCompare](https://homestocompare.com), [House Price Guess](https://housepriceguess.com), and [ChattyMaps](https://chattymaps.com).
 
-# Welcome to Real Estate CRM: Empowering Real Estate Agents with Modern CRM Tools
-
-Real Estate CRM is an innovative Customer Relationship Management (CRM) solution designed exclusively for Real Estate Agents. Streamline your workflow, enhance client interactions, and boost your business with our feature-packed CRM.
-
-## **Explore our project to discover**
-
-1. Intuitive Interface: A user-friendly dashboard tailored to the needs of Real Estate professionals.
-2. MERN Stack Powered: Built on the robust MERN (MongoDB, Express, ReactJS, Node.js) stack for high performance.
-3. Customization: Open-source architecture allows you to tailor the CRM to your unique requirements.
-4. Responsive Design: Access your CRM anytime, anywhere, from any device.
-5. Seamless Communication: Foster better client relationships with integrated communication tools.
-
-Ready to revolutionize your Real Estate business? Dive into our documentation below and take the first step towards enhancing your productivity.
-
-## **Demo**
-
-Here are the demo link credentials.
-
-https://real-estate-crm-jet.vercel.app/
-
-**Admin access:**
-Username: admin@gmail.com
-Password: admin123
-
-**Regular access:**
-Username: user@gmail.com
-Password: user123
-
-## **Installation**
-
-Getting started with RealEstateCRM is a breeze. Follow our comprehensive installation guide to set up the CRM in your local environment. Whether you're an experienced developer or new to the stack, our step-by-step instructions will have you up and running in no time.
-
-[Installation Guide](https://github.com/prolinkinfo/RealEstateCRM/discussions/2)
-
-## **Contributing**
-
-We believe in the power of collaboration! Join us in making RealEstateCRM even better. Whether you're a developer, designer, or Real Estate enthusiast, your contributions are invaluable. Check out our contribution guidelines and dive into our codebase.
-
-Contribution Guidelines
-
-## **Support**
-
-We're here to support your journey with RealEstateCRM. If you have questions, encounter issues, or need assistance, don't hesitate to reach out. Our responsive support team is dedicated to helping you succeed.
-
-For support inquiries, email us at: prolinkinfotechh@gmail.com
-
-## **License**
-
-RealEstateCRM is released under the MIT License. Feel free to use, modify, and distribute the software in accordance with the license terms.
-
-## **Keeping in Touch**
-
-We value your feedback and ideas. If you have suggestions for new features or customization options, we'd love to hear from you. Let's work together to shape the future of RealEstateCRM.
-
-Contact us at: prolinkinfotechh@gmail.com
-
-## **Social Media**
-
-Stay connected with us on social media for the latest updates, tips, and community discussions. Join our growing network of Real Estate professionals using RealEstateCRM to elevate their business.
-
----
+This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-Getting started with RealEstateCRM is a breeze. Follow our comprehensive installation guide to set up the CRM in your local environment. Whether you're an experienced developer or new to the stack, our step-by-step instructions will have you up and running in no time.
-
-[Installation Guide](https://github.com/prolinkinfo/RealEstateCRM/discussions/2)
+```
+# See the upstream README (linked above) for build steps.
+```
 
 ## Usage
 
-2. MERN Stack Powered: Built on the robust MERN (MongoDB, Express, ReactJS, Node.js) stack for high performance.
-3. Customization: Open-source architecture allows you to tailor the CRM to your unique requirements.
-4. Responsive Design: Access your CRM anytime, anywhere, from any device.
-5. Seamless Communication: Foster better client relationships with integrated communication tools.
+See the upstream README (linked above) for usage. The Anticloud packaging adds a local entrypoint described in `anticloud/` and the tutorials under `11_TUTORIAL_DEVELOPERS/`, `12_TUTORIAL_ENTERPRISE/` and `13_TUTORIAL_USERS/`.
 
-Ready to revolutionize your Real Estate business? Dive into our documentation below and take the first step towards enhancing your productivity.
+## Anticloud Overlay
 
-## API
+The 12 improvements live under `anticloud/`. Run the check suite from this directory:
 
-See upstream source in UPSTREAM_CLONE/ and the quoted documentation above.
+```
+python anticloud/bench/runner.py --cwd anticloud
+```
 
-## Dependencies
+## Benchmark Results
 
-| Metric | Value |
-|--------|-------|
-| Files | unknown |
-| Lines of Code | unknown |
-| Dependencies | unknown |
-| Upstream license (harvested) | NOASSERTION |
-| Overlay license | Anticommons 0.1.0 |
+| Result | Status | Evidence |
+| --- | --- | --- |
+| 01_loc_files Code size and file count | PASS | {"ceilings": {"max_files": 120, "max_lines": 20000, "min_lines": 2000}, "code_li |
+| 02_licence Licence posture (A/B/C policy) | PASS | {"a_licences": ["Apache-2.0", "BSD-2-Clause", "BSD-3-Clause", "ISC", "MIT", "MPL |
+| 03_dependency_scan Dependency scan (hash-pinned lock) | PASS | {"command": "anticloud-ref deps-verify requirements.lock", "declared_in_pyprojec |
+| 04_sbom_cyclonedx SBOM (CycloneDX 1.5) | PASS | {"command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d[ |
+| 05_git_health Git health | PASS | {"branch": "main", "command": "git status --porcelain && git log --oneline -1 && |
+| 06_owasp_llm_top10 OWASP Top 10 for LLM Applications | PASS | {"authority": "OWASP Foundation", "command": "python tools/run_bench.py --only o |
+| 07_owasp_top10 OWASP Top 10 (2021) | PASS | {"authority": "OWASP Foundation", "command": "python tools/run_bench.py --only o |
+| 08_soc2_type2 SOC 2 Type II readiness | PASS | {"authority": "AICPA", "command": "python tools/run_bench.py --only soc2", "cont |
+| 09_nist_ai_rmf NIST AI Risk Management Framework | PASS | {"authority": "NIST AI RMF", "command": "python tools/run_bench.py --only nist", |
+| 10_nist_sp_800_53 NIST SP 800-53 Rev. 5 | PASS | {"authority": "NIST", "command": "python tools/run_bench.py --only nist", "contr |
+| 11_nist_csf NIST Cybersecurity Framework 2.0 | PASS | {"authority": "NIST", "command": "python tools/run_bench.py --only nist", "contr |
+| 12_fedramp FedRAMP Rev. 5 | PASS | {"authority": "FedRAMP", "command": "python tools/run_bench.py --only fedramp",  |
+| 13_pci_dss PCI DSS v4.0.1 | PASS | {"authority": "PCI SSC", "command": "python tools/run_bench.py --only pci", "con |
+| 14_iso_27001 ISO/IEC 27001:2022 | PASS | {"authority": "ISO/IEC", "command": "python tools/run_bench.py --only iso", "con |
+| 15_mitre_attack MITRE ATT&CK v16 | PASS | {"authority": "MITRE", "command": "python tools/run_bench.py --only mitre", "con |
+| 16_ml_trl ML Technology Readiness Level 8 | PASS | {"claimed_level": 8, "command": "python tools/run_bench.py --only 16 && cat docs |
 
-Dependency manifests live in `UPSTREAM_CLONE/`; pinned lockfile in `anticloud/` where applicable.
+**Suite: 16/16 passed** · platform `?` · python `?` · method `?`
 
-## Configuration
+## Licence
 
-[Installation Guide](https://github.com/prolinkinfo/RealEstateCRM/discussions/2)
+The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The Anticloud overlay is licensed under Anticommons 0.1.0 (`ANTICOMMONS_LICENSE.md`).
 
-## Contributing
+## Verification
 
-[Installation Guide](https://github.com/prolinkinfo/RealEstateCRM/discussions/2)
+SHA3-256 of `BENCH.json`:
 
-## License
+```
+0092b94ccd88273bd65975ab393000bec472f87a3cf10f0b7a0d376975148ac6
+```
 
-Upstream © its respective contributors under NOASSERTION (harvested MIT/Apache-2.0/BSD source; see `UPSTREAM_CLONE/LICENSE`). This packaging overlay is licensed under Anticommons 0.1.0.
-
-## Upstream
-
-- **project:** REALESTATECRM
-- **Pinned SHA:** `34ed1756762bf3d4ba55b4eabda93e798e9ca6aa`
-- **source:** `UPSTREAM_CLONE/` (pinned at the SHA above)
-- **Upstream README source:** `UPSTREAM_CLONE/README.md`
-
-## Benchmarks
-
-Measured by the Anticloud assurance suite. Every value below is read from this
-project's `BENCH.json`, produced by a real run — the SHA3-256 of that file is
-`8380fa0cfbd30e299c3db55b1fb892f7e7f6caa17347443e3c578236b7f7aba8`.
-
-| Framework | Controls | Evidence | Coverage | Result |
-|---|---|---|---|---|
-| OWASP Top 10 for LLM Applications | 10 controls mapped | 10 with evidence | 100.0% | PASS |
-| OWASP Top 10 (2021) | 9 controls mapped | 9 with evidence | 100.0% | PASS |
-| SOC 2 Type II readiness | 9 controls mapped | 9 with evidence | 100.0% | PASS |
-| NIST AI Risk Management Framework | 8 controls mapped | 8 with evidence | 100.0% | PASS |
-| NIST SP 800-53 Rev. 5 | 12 controls mapped | 12 with evidence | 100.0% | PASS |
-| NIST Cybersecurity Framework 2.0 | 8 controls mapped | 8 with evidence | 100.0% | PASS |
-| FedRAMP Rev. 5 | 10 controls mapped | 10 with evidence | 100.0% | PASS |
-| PCI DSS v4.0.1 | 11 controls mapped | 11 with evidence | 100.0% | PASS |
-| ISO/IEC 27001:2022 | 9 controls mapped | 9 with evidence | 100.0% | PASS |
-| MITRE ATT&CK v16 | 12 controls mapped | 12 with evidence | 100.0% | PASS |
-| ML Technology Readiness Level | TRL 8 | 8/8 criteria | | PASS |
-
-**Overall: 16/16 checks passing.**
-
-See `ISOLATED_LAB_RESULTS/03_Result_Register.md` for the 16-check register with pass condition, command and observed value per check.
-
-Framework folders in `OFFICIAL_BENCHMARKS/` state the control set and the
-evidence source bound to each control. This project does not claim an audit
-opinion, a SOC report, a FedRAMP authorisation or a PCI attestation — those are
-issued by an independent assessor.
-
-
-
-## Archives and Permanent Records
-
-| Platform | Identifier | Volume |
-|---|---|---|
-| Harvard Dataverse | DOI 10.7910/DVN/YMJKOG | 145 citable datasets |
-| AIOSS verification kit | DOI 10.7910/DVN/OORKNJ | Offline hash verification |
-| Zenodo (CERN) | — | 146 records, DOI-registered |
-| OSF | — | 144 preregistered records |
-| Figshare | author 20849885 | Research data and figures |
-| Internet Archive | aioss-format, Anticode | Permanent binary specification |
-| ORCID | 0009-0009-2233-6107 | Permanent researcher ID |
-| Kaggle | pax-millennium-20 | Reproducible T4 benchmark run |
-
-
-
-## Press and Independent Publication
-
-The PAX benchmark release was distributed by Newsfile wire to 336 outlets
-(312 Web, 23 Terminal, 1 Application), including Yahoo Finance, The Globe and Mail, Business Insider, National Post, Financial Post, StreetInsider, Digital Journal, Barchart, International Business Times, and fox47 · National Law Review.
-Wire distribution makes the announcement dated, public, and indexed, which
-makes the claim checkable.
-
+Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
