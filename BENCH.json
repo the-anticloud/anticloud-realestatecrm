@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "REALESTATECRM",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\REAL_ESTATE\\REALESTATECRM\\UPSTREAM_CLONE",
   "git": {
-   "head": "34ed1756762bf3d4ba55b4eabda93e798e9ca6aa",
-   "url": "https://github.com/etewiah/property_web_builder",
-   "branch": "master",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/prolinkinfo/RealEstateCRM",
+   "head": "a770042cdab0ff2266f6db2b4bba9984817a3f99",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/etewiah/property_web_builder"
   }
  },
  "metrics": {

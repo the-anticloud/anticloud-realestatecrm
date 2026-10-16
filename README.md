@@ -1,14 +1,12 @@
 # REALESTATECRM
 
-> PropertyWebBuilder is part of a small stable of property-tech products, alongside [SinglePropertyPages](https://singlepropertypages.com), [HomesToCompare](https://homestocompare.com), [House Price Guess](https://housepriceguess.com), and [ChattyMaps](https://chattymaps.com).
+> Real Estate CRM is an innovative Customer Relationship Management (CRM) solution designed exclusively for Real Estate Agents. Streamline your workflow, enhance client interactions, and boost your business with our feature-packed CRM.
 
-**Category:** REAL_ESTATE · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/etewiah/property_web_builder · **Pinned commit:** `34ed1756762bf3d4ba55b4eabda93e798e9ca6aa` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/etewiah/property_web_builder` as the implementation for the `REALESTATECRM` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** REAL_ESTATE · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/prolinkinfo/RealEstateCRM · **Pinned commit:** `a770042cdab0ff2266f6db2b4bba9984817a3f99` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-PropertyWebBuilder is part of a small stable of property-tech products, alongside [SinglePropertyPages](https://singlepropertypages.com), [HomesToCompare](https://homestocompare.com), [House Price Guess](https://housepriceguess.com), and [ChattyMaps](https://chattymaps.com).
+Real Estate CRM is an innovative Customer Relationship Management (CRM) solution designed exclusively for Real Estate Agents. Streamline your workflow, enhance client interactions, and boost your business with our feature-packed CRM.
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
@@ -62,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-0092b94ccd88273bd65975ab393000bec472f87a3cf10f0b7a0d376975148ac6
+d15d96eb36877c7e0af037afb4944af5d1108d9b2c8f4acc5050b0bcccf563b7
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
